@@ -1,0 +1,71 @@
+.gradient-custom-2 {
+  /* fallback for old browsers */
+  background: #fccb90;
+  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #24a4ee, #368fd8, #36b6dd, #4568b4);
+}
+
+@media (min-width: 768px) {
+  .gradient-form {
+    height: 90;
+  }
+}
+
+@media (min-width: 768px) {
+  .gradient-custom-2 {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}
+
+.row123 {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: var(--bs-gutter-y);
+}
+
+body, html {
+  height: 100%;
+  overflow: hidden;
+}
+
+.container-fluid {
+  height: 100%;
+  border: none;
+}
+
+.row {
+  height: 100%;
+}
+
+.card {
+  border-radius: 0;
+  width: 101%;
+  max-width: none;
+border:0 !important;
+box-shadow:0 !important;
+border:none !important;
+border-style: none !important;
+}
+
+.gradient-form {
+  height: 100%;
+}
+
+.row123 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.vh-100{
+  height:100%;
+}
+
+

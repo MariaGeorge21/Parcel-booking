@@ -1,0 +1,16 @@
+.navbar {
+    background-color: #316daa; /* Set your desired background color */
+    height:80px;
+  }
+  
+  .navbar .nav-link {
+    color: #316daa; /* Set your desired text color */
+  }
+  
+  .navbar .nav-link:hover {
+    color: #fff; /* Set your desired hover color */
+  }
+
+  .ll{
+    width: 1140px;
+}
