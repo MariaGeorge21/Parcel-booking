@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./land.component.css']
 })
 export class LandComponent {
+  displayFooter: boolean = false;
 
+  toggleFooter() {
+    this.displayFooter = !this.displayFooter;
+  }
 }
+
