@@ -1,30 +1,25 @@
-.gradient-custom-2 {
-  /* fallback for old browsers */
-  background: grey;
-  
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-linear-gradient(to right, rgba(128, 128, 128, 0.027),rgba(0, 0, 0, 0.603),rgba(0, 0, 0, 0.151),black,black,rgba(0, 0, 0, 0.336),black);
-  
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(to righ);
-  }
-  
-  @media (min-width: 768px) {
-  .gradient-form {
-  height: 100vh !important;
-  }
-  }
-  @media (min-width: 769px) {
-  .gradient-custom-2 {
-  border-top-right-radius: .3rem;
-  border-bottom-right-radius: .3rem;
-  }
-  }
-  .roundedimg {
-    border-radius: 50%;
-  }
-  
-  /* #cont{
-    margin-bottom: 100px;
-    background-color: blueviolet;
-  } */
+.fullimg {
+  background-image: url(/assets/istockphoto-1056632178-1024x1024-transformed.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.loginpage {
+  position: relative; 
+  z-index: 2;
+}
+
+.card {
+  border: none;
+  width: 400px;
+  height: 600px;
+}
+
+.card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
