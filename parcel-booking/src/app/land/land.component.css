@@ -16,7 +16,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, -0.2); /* Adjust the transparency value as per your preference */
+  background-color: rgba(0, 0, 0, 0.123); /* Adjust the transparency value as per your preference */
   z-index: 2;
 }
 

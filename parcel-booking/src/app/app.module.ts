@@ -18,6 +18,7 @@ import { AddParcelComponent } from './add-parcel/add-parcel.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavComponent } from './nav/nav.component';
 import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.component';
+import { HomeComponent } from './home/home.component';
 
 
   // Rest of your component code
@@ -35,7 +36,8 @@ import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.compo
     AddParcelComponent,
     FooterComponent,
     NavComponent,
-    AdminDashboardComponent
+    AdminDashboardComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

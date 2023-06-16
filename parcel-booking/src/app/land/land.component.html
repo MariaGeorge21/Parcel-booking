@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
-  <div class="container-fluid ">
+  <div class="container-fluid">
     <img src="assets\Delivery.png" style="width: 80px;" class="rounded-circle" alt="logo">
     <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
       aria-expanded="false" aria-label="Toggle navigation" >
@@ -19,50 +19,30 @@
         <li class="nav-item">
           <button mat-button class="class=display-7 text-white" >Contact</button>
         </li>
-        
-        
-        <li class="nav-item dropdown">
-          <button mat-button [matMenuTriggerFor]="servicesMenu" class="class=display-7 text-white">Services</button>
-          <mat-menu #servicesMenu="matMenu">
-            <button mat-menu-item routerLink="/add-parcel" class="class=display-7 text-white">Add Parcel</button>
-            <button mat-menu-item routerLink="/add-parcel" class="class=display-7 text-white">Search</button>
-            <button mat-menu-item routerLink="/track" class="class=display-7 text-white">Track</button>
-          </mat-menu>
-        </li>
       </ul>
     </div>
   </div>
 </nav>
 <div class="parcel-booking vh-100 d-flex align-items-center">
-<div class="container package">
-  <div class="row justify-content-center align-items-center text-center">
-    <div class="col-lg-7">
-    
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-6">
-            <div class="card text-center" style="background-color: transparent; border: none; width: 800px; height: 300px;">
-              <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                <p class="text-black fs-6 my-3" style="letter-spacing: 2px;">
-                  Welcome to Our Parcel Delivery Services<br>Reliable and efficient parcel delivery solutions at your doorstep.
-                </p>
-              </div>
-            </div>
+  <div class="container package">
+    <div class="row ">
+      <div class="col-lg-7 mx-auto text-center">
+     
+              <div class="" style="background-color: transparent; border: none; width: 800px; height: 300px; ">
+                <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                  <h2 class="dsiplay-7 text-dark font-weight-bold"> Welcome to Our Parcel Delivery Services</h2>
+                  <p class="font-weight-bold text-white" style="font-size: 20px; letter-spacing: 2px;">
+                    Reliable and efficient parcel delivery solutions at your doorstep.
+                  </p>
+                  
+           
           </div>
         </div>
       </div>
-      
-      
-      
-      
-      
     </div>
   </div>
-  
-  
- 
 </div>
-</div>
+
 <div class="footer" *ngIf="displayFooter" id="ctc">
   <!DOCTYPE html>
   <html lang="en">
