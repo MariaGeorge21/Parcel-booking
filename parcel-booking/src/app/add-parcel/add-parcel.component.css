@@ -1,36 +1,10 @@
-.gradient-custom {
-    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.795),grey);
-    }
-    
-    .card-custom {
-    border-bottom-left-radius: 10% 50%;
-    border-top-left-radius: 10% 50%;
-    background-color: #f8f9fa ;
-    }
-    
-    
-    .input-custom {
-    background-color: white ;
-    }
-    
-    .white-text {
-    color: hsl(52, 0%, 98%);
-    font-weight: 100 ;
-    font-size: 14px;
-    }
-    
-    .back-button {
-    background-color: hsl(52, 0%, 98%);
-    font-weight: 700;
-    color: black ;
-    margin-top: 50px ;
-    }
-    .col-md-3{
-        width:21%;
-    }
-    .mt-3 text-white{
-        margin-top: 40px;
-    }
-    .white-text{
-        margin-top: 50px;
-    }
+.form-container {
+    border: 1px solid #ccc;
+    padding: 50px;
+    padding-top: 50px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .container{
+    padding-top: 50px;
+  }

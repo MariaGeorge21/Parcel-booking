@@ -1,37 +1,113 @@
-<nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
-  <div class="container-fluid ">
-    <a class="navbar-brand" routerLink="/">Parcel Service</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-      aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-lg sticky-top  bg-body-tertiary">
+
+  <div class="container-fluid">
+
+    <a class="navbar-brand" href="#" ><img src="assets\Delivery.png"></a>
+
+    <form class="d-flex" role="search">
+
+      <input
+
+        class="form-control me-2"
+
+        type="search"
+
+        placeholder="Search"
+
+        aria-label="Search"
+
+      />
+
+      <button class="btn btn-outline-success" type="submit">Search</button>
+
+    </form>
+
+   
+
+    <button
+
+      class="navbar-toggler"
+
+      type="button"
+
+      data-bs-toggle="collapse"
+
+      data-bs-target="#menuBar"
+
+      aria-controls="menuBar"
+
+      aria-expanded="false"
+
+      aria-label="Toggle navigation"
+
+    >
+
       <span class="navbar-toggler-icon"></span>
+
     </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul class="navbar-nav">
+
+    <div class="collapse navbar-collapse" id="menuBar">
+
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
         <li class="nav-item">
-          <button class="display-7 text-white" mat-button routerLink="/">Home</button>
+
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+
         </li>
+
         <li class="nav-item">
-          <button class="display-7 text-white" mat-button routerLink="/login">Login</button>
+
+          <a class="nav-link" href="#">About</a>
+
         </li>
-        <li class="nav-item">
-          <button class="display-7 text-white" mat-button routerLink="/about">About</button>
-        </li>
-        <li class="nav-item">
-          <button class="display-7 text-white" mat-button >Contact</button>
-        </li>
-        <li class="nav-item">
-          <button class="display-7 text-white" mat-button routerLink="/login">Logout</button>
-        </li>
-        
+
         <li class="nav-item dropdown">
-          <button class="display-7 text-white" mat-button [matMenuTriggerFor]="servicesMenu">Services</button>
-          <mat-menu #servicesMenu="matMenu">
-            <button mat-menu-item routerLink="/add-parcel">Add Parcel</button>
-            <button mat-menu-item routerLink="/add-parcel">Search</button>
-            <button mat-menu-item routerLink="/track">Track</button>
-          </mat-menu>
+
+          <a
+
+            class="nav-link dropdown-toggle"
+
+            href="#"
+
+            role="button"
+
+            data-bs-toggle="dropdown"
+
+            aria-expanded="false"
+
+          >
+
+            Services
+
+          </a>
+
+          <ul class="dropdown-menu">
+
+            <li><a class="dropdown-item" href="#">View Parcels</a></li>
+
+            <li><a class="dropdown-item" href="#">Search</a></li>
+
+            <!-- <li><hr class="dropdown-divider" /></li> -->
+
+            <li><a class="dropdown-item" href="#">Tracking</a></li>
+
+          </ul>
+
         </li>
+
+        <li class="nav-item">
+
+          <a class="nav-link" href="#">Logout</a>
+
+        </li>
+
       </ul>
+
+     
+
     </div>
+
   </div>
+
 </nav>
